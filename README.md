@@ -16,36 +16,6 @@ It's designed to showcase **modern data engineering skills**: ingestion, transfo
 
 ---
 
-## 📂 Cấu trúc thư mục
-
-weather-data-project/
-├── airflow/
-│ └── dags/
-│ └── orchestrator.py
-├── api-request/
-│ ├── api_request.py
-│ └── insert_records.py
-├── dbt/
-│ ├── logs/
-│ └── my_project/
-│ ├── .user.yml
-│ └── profiles.yml
-├── docker/
-│ ├── .env
-│ ├── docker-bootstrap.sh
-│ ├── docker-init.sh
-│ └── superset_config.py
-├── postgres/
-│ ├── data/
-│ ├── airflow_init.sql
-│ └── superset_init.sql
-├── var/
-├── .gitignore
-├── docker-compose.yaml
-└── README.md
-
----
-
 ## 🚀 Features
 
 - Pull live weather data from [Weatherstack API](https://weatherstack.com/)
