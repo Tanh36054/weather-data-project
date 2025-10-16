@@ -1,0 +1,31 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# VSCode
+.vscode/
+.vscode-server/
+
+# Docker volumes and data
+var/
+postgres/data/
+
+# dbt
+target/
+dbt_packages/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Env files (secrets)
+.env
+*.env
